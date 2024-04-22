@@ -8,5 +8,8 @@ import ua.kpi.its.lab.rest.dto.ExampleDto
 class ExampleController {
     @GetMapping("/example")
     fun example(): ExampleDto = ExampleDto("example")
+
+    @GetMapping("/hello")
+    fun exampleHello(): ExampleDto = ExampleDto("hello")
 }
 // Your code here
